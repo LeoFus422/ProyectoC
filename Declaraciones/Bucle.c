@@ -11,7 +11,7 @@ int main(void){
         if(num > 0){
             suma = suma + num;
         }
-    }while(((num < 20)|| (num > 30)) && (num != 0));
+    }while(((num < 20) || (num > 30)) && (num != 0));
     printf("\nLA suma es: %d\n", suma);
 
 

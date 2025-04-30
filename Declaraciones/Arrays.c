@@ -1,5 +1,3 @@
-/*Ejercicio 1 matrices:  leer una matriz de 2 filas y 4 columnas por filas , e imprimirlas por columnas*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -37,7 +35,7 @@ int main(void){
         }
         break;
     case 2:
-    printf("Posicion || competidor || numero || 1vuelta || 2vuelta || mejor tiempo ");
+    printf("Posicion || competidor || numero || 1vuelta || 2vuelta || mejor tiempo \n");
     printf("1 - %s - %d - %f - %f - %f", nombre_apellido, num[1][1], vuelta[1][1], vuelta[1][2], rango);
         break;
     default:
